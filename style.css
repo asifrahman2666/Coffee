@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* header css start */
+.header {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+
+.header a img {
+    width: 70px;
+    height: 60px;
+}
+
+.header .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 4px;
+    transition: 0.3s;
+}
+
+.header .navbar a:hover {
+    color: #d3ad7f;
+    border-bottom: 1px solid #d3ad7f;
+}
+
+.header .icons .icons-button {
+    color: white;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+/* header end */
+
+/* banner css start */
+.banner {
+    background-image: url("./images/home-img.jpeg");
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.banner p {
+    color: white;
+}
+
+.banner button {
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: yellow;
+    font-weight: 700;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.banner button:hover {
+    letter-spacing: 0.5px;
+
+}
+
+/* banner css end */
